@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+:root {
+  --bgTitle: rgb(0, 0, 0);
+  --bgForm: #120136;
+  --bgCard: #035aa6;
+  --bgButton: #3b6978;
+  --formText: #40bad5;
+  --cardTitle: #fcbf1e;
+  --cardText: #40bad5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+h1 {
+  background-color: var(--bgTitle);
+  color: var(--formText);
+  text-align: center;
+}
+
+#list-users {
+  text-align: center;
+  margin-top: 4vh;
+  font-size: 18px;
+}
+
+.input-group {
+  width: 300px;
+}
+
+/* Formulario CSS*/
+.formulario {
+  background-color: var(--bgForm);
+  color: var(--formText);
+  padding: 2rem;
+}
+
+/*Card CSS*/
+.card {
+  margin: 10px;
+  height: 250px;
+}
+.card-title {
+  color: var(--cardTitle);
+}
+.card-text {
+  color: var(--cardText);
+}
+
+.card-body {
+  background-color: var(--bgCard);
+  height: 249px;
+}
+img {
+  max-height: 250px;
+  padding: 15px 15px 15px 45px;
+  text-align: center;
+}
